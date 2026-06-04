@@ -1,0 +1,13 @@
+password
+user
+username
+token
+auth
+session
+secret
+apikey
+bearer
+jwt
+private_key
+client_secret
+refresh_token
