@@ -1,6 +1,5 @@
 # aStorageEnum
-Advanced version of iStorageEnumV2 tailored for Android.
-Based on the tool [iStorageEnumV2](https://github.com/shibinbshaji/iStorageEnumV2.git) by shibinbshaji.
+Android application local storage enum.
 
 Used to fetch interesting files within an application's Data Directory from an Android device (rooted or via run-as). It downloads the application's data files to your local machine, extracts strings, finds Base64 encoded values (e.g., JWTs), and runs keyword searches to fetch potentially sensitive information.
 
@@ -12,7 +11,7 @@ Used to fetch interesting files within an application's Data Directory from an A
 ## Installation
 Just `git clone` this repo and you're good to go!
 
-`git clone <repository_url>`
+`git clone https://github.com/itsAgasthya/AndroidStorageEnum.git`
 
 ## Usage (Android)
 
