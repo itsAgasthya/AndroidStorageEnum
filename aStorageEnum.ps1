@@ -156,7 +156,7 @@ if (Test-Path $grepwordsFile) {
         Write-Host "$keyword" -ForegroundColor Yellow
         $foundItems = Get-ChildItem -Path $stringsPath -File -Recurse | Select-String -Pattern $keyword
         if ($foundItems) {
-            $foundItems | Select-Object Line | Out-File -FilePath "$grepResultsPath\$keyword.txt"
+            $foundItems | Select-Object -ExpandProperty Line | Set-Content -Path "$grepResultsPath\$keyword.txt"
         }
     }
 } else {
